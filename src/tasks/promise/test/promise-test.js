@@ -21,3 +21,7 @@ export async function expectReject(promise, msg) {
     }
     throw new Error(`FAIL: ${msg} — expected rejection, but resolved`);
 }
+
+export async function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
