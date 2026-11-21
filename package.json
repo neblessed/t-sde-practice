@@ -1,0 +1,20 @@
+{
+    "name": "t-sde-practice",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/neblessed/t-sde-practice#readme",
+    "bugs": {
+        "url": "https://github.com/neblessed/t-sde-practice/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neblessed/t-sde-practice.git"
+    },
+    "license": "ISC",
+    "author": "v.tokaev",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
