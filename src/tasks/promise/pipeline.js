@@ -1,4 +1,8 @@
-import { assertEqual, expectReject, sleep } from "./test/promise-test.js";
+import {
+    assertEqual,
+    expectReject,
+    sleep,
+} from "../../test-utils/promise-test.js";
 
 /**
 Сигнатура: pipeline(value, ...fns) => Promise<Result>

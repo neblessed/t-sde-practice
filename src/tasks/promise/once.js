@@ -1,4 +1,4 @@
-import { assert, expectReject } from "./test/promise-test.js";
+import { assert, expectReject } from "../../test-utils/promise-test.js";
 
 /**
 Сигнатура: once(fn) => (...args) => Promise<T>

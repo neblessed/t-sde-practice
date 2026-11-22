@@ -1,4 +1,9 @@
-import { assert, assertEqual, expectReject } from "./test/promise-test.js";
+import {
+    assert,
+    assertEqual,
+    expectReject,
+    sleep,
+} from "../../test-utils/promise-test.js";
 
 /**
 Что нужно: «async map» с ограничением одновременно работающих промисов. Возвращает массив результатов в порядке items (не по завершению).
@@ -29,8 +34,6 @@ async function mapWithConcurrency(items, fn, limit) {
 
     return results;
 }
-
-const sleep = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function testMapWithConcurrency() {
     // 1. Базовый: порядок и результаты

@@ -1,4 +1,4 @@
-import { assert } from "./test/promise-test.js";
+import { assert } from "../../test-utils/promise-test.js";
 
 async function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));

@@ -1,4 +1,8 @@
-import { assert, assertEqual, expectReject } from "./test/promise-test.js";
+import {
+    assert,
+    assertEqual,
+    expectReject,
+} from "../../test-utils/promise-test.js";
 
 /**
  * Сигнатура: promisify(fn) => (...args) => Promise<T>
